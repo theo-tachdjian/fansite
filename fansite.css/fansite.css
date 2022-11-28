@@ -1,0 +1,147 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*{
+    font-family: 'Montserrat';
+}
+
+body{
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img{
+    width: 150px;
+}
+
+section.top-page{
+    background: url("../image/MissFortune.png");
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+    background-color: whitesmoke;
+}
+
+.landing-page{
+    padding: 20px 50px;
+}
+
+.big-title{
+    color: white;
+    font-size: 80px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+}
+
+.scroll-down{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+    margin-left: 60px;
+}
+
+nav.nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.section-title{
+    font-size: 50px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: gold;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.jeu{
+    min-height: 50px;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.qqmots{
+    background-image: url("../image/LoL_1.webp");
+    min-width: 300px;
+    height: 170px;
+    background-color: whitesmoke;
+}
+
+.qqmots2{
+    background-image: url("../image/adc.png");
+    min-width: 230px;
+    height: 190px;
+    background-color: whitesmoke;
+}
+
+.qqmots3{
+    margin-left: 350px;
+    width: 800px;
+    text-align: center;
+    align-content: center;
+}
+
+.qqmots4{
+    background-image: url("../image/passif.png");
+    min-width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.qqmots5{
+    background-image: url("../image/Qspell.png");
+    min-width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.qqmots6{
+    background-image: url("../image/z.png");
+    min-width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.qqmots7{
+    background-image: url("../image/e.png");
+    min-width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.qqmots8{
+    background-image: url("../image/ult.png");
+    min-width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    background-color: lightblue;
+}
